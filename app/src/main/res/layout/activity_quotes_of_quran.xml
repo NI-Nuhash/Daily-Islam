@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_jakat"
+    tools:context=".DailyDua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nبِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In the name of Allah, the Beneficent, the Merciful"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAl-Fatiha - 1:2"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nالْحَمْدُ لِلَّـهِ"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Praise be to Allah\n"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAl-Baqara - 2:2"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the Scripture whereof there is no doubt, a guidance unto those who ward off (evil)\n"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAl-Baqara - 2:7"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nخَتَمَ اللَّـهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allah hath sealed their hearing and their hearts, and on their eyes there is a covering. Theirs will be an awful doom\n"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAl-Anaam - 6:32"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nوَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ ۖ وَلَلدَّارُ‌ الْآخِرَ‌ةُ خَيْرٌ‌ لِّلَّذِينَ يَتَّقُونَُِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the life of this world but play and amusement? But best is the home in the hereafter, for those who are righteous"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAl-Maeda - 5:44"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nفَلَا تَخْشَوُا النَّاسَ وَاخْشَوْنِِ \n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="So fear not mankind, but fear Me\n"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAn-Nisa - 4:79"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nمَّا أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللَّـهِ ۖ وَمَا أَصَابَكَ مِن سَيِّئَةٍ فَمِن نَّفْسِكَُّ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Whatever good, (O man!) happens to them, is from Allah; but whatever evil happens to them, is from their (own) soul\n"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nAn-Nisa - 4:45"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nوَكَفَىٰ بِاللَّـهِ وَلِيًّا وَكَفَىٰ بِاللَّـهِ نَصِيرً‌اٌ.\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allah is sufficient as a Guardian, and Allah is sufficient as a Supporter\n"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

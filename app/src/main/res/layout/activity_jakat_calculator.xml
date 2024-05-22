@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_jakat"
+    tools:context=".JakatCalculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="     Amount of Gold\n(Nisab = 87.48 grams)"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="30dp"
+            />
+        <EditText
+            android:id="@+id/GoldAmount"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:hint="Enter total amount of gold (Kg)"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="      Amount of Silver\n(Nisab = 612.36 grams)"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/SilverAmount"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter total amount of silver (Kg)"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gold Price"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/GoldPrice"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:hint="Enter the price rate of gold (Tk/Kg)"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Silver Price"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/SilverPrice"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:hint="Enter the price rate of silver (Tk/Kg)"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cash and Properties"
+            android:textColor="#25BF2B"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/Cash"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:hint="Enter your deposit money and properties (Tk)"
+            android:textColorHint="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Debt and Liabilities"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/Cost"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:hint="Enter your expenses for debt and liabilities (Tk)"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/TotalZakat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zakat amount"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/ResultShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="40dp"
+            android:textStyle="bold"
+            android:textColor="#BC0404"
+            android:text="Total Zaakat"
+            android:layout_marginBottom="70dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

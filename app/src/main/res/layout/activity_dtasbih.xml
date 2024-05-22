@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DTasbih">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/beginning_dua"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/dorud"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/DigitShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:background="@color/white"
+        android:textSize="100dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#3F51B5"
+        />
+
+    <Button
+        android:id="@+id/CountButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/RemoveButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="30dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#4CAF50"
+        />
+
+</LinearLayout>

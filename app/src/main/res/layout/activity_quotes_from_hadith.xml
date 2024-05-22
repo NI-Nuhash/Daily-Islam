@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_jakat"
+    tools:context=".DailyDua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nHadith 1:\nDeeds are by intensions"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nعَنْ أَمِيْرِ الْمُؤْمِنِيْنَ أَبِيْ حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُوْلَ اللهِ صلى الله عليه وسلم يَقُوْلُ: إِنَّمَا اْلأَعْمَالُ بِالنِّيَّاتِ وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى. فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُوْلِهِ فَهِجْرَتُهُ إِلَى اللهِ وَرَسُوْلِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيْبُهَا أَوْ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ.\n\n[رواه إماما المحدثين أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة بن بردزبة البخاري وأبو الحسين مسلم بن الحجاج بن مسلم القشيري النيسابوري في صحيحيهما اللذين هما أصح الكتب المصنفة] ِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actions are (judged) by motives (intentions), so each man will have what he intended. Thus, he whose migration was to Allah and His Messenger, his migration is to Allah and His Messenger; but he whose migration was for some worldly thing he might gain, or for a wife he might marry, his migration is to that for which he migrated.\nBukhari: 54"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nHadith 2:\nPillars of Islam"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nعَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللهِ بْنِ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللهُ عَنْهُمَا قَالَ : سَمِعْتُ رَسُوْلَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُوْلُ : بُنِيَ اْلإِسْلاَمُ عَلَى خَمْسٍ : شَهَادَةُ أَنْ لاَ إِلَهَ إِلاَّ اللهُ وَأَنَّ مُحَمَّداً رَسُوْلُ اللهِ وَإِقَامُ الصَّلاَةِ وَإِيْتَاءُ الزَّكَاةِ وَحَجُّ الْبَيْتِ وَصَوْمُ رَمَضَانَ.\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On the authority of Abdullah,the son of Umar Ibn-Al-Khattab (R.A.),\nwho said:\nI heard the Messenger of Allah (S.A.W.) say,\n
+Islam has been built on five [pillars]: testifying that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, establishing the Salah (Namaz, Prayer), paying the Zakat (obligatory charity), perform the Hajj (pilgrimage to Makkah) to the House of Kaaba, and fasting in Ramadan.\nAbu Dawud: 792"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nHadith 3:\nLawful and Unlawful are clear"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nعَنْ أَبِي عَبْدِ اللهِ النُّعْمَانِ بْنِ بَشِيْرٍ رَضِيَ اللهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُوْلَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُوْلُ : إِنَّ الْحَلاَلَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ وَبَيْنَهُمَا أُمُوْرٌ مُشْتَبِهَاتٌ لاَ يَعْلَمُهُنَّ كَثِيْرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى  الشُّبُهَاتِ فَقَدْ اسْتَبْرَأَ لِدِيْنِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ، كَالرَّاعِي يَرْعىَ حَوْلَ الْحِمَى يُوْشِكُ أَنْ يَرْتَعَ فِيْهِ، أَلاَ وَإِنَّ  لِكُلِّ مَلِكٍ حِمًى أَلاَ وَإِنَّ حِمَى اللهِ مَحَارِمُهُ أَلاَ وَإِنَّ فِي الْجَسَدِ   مُضْغَةً إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ  أَلاَ وَهِيَ الْقَلْبُ
+\n[رواه البخاري ومسلم]\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Al-Nauman-Ibn-Bashir (R.A.) reported:\nThe Messenger of Allah (S.A.W.),said:
+“Verily, the lawful is clear and the unlawful is clear,and between the two of them are doubtful matters about which many people do not know.Thus,he who avoids doubtful matters clears himself in regard to his religion and his honor,and he who falls into doubtful matters will fall into the unlawful as the shepherd who pastures near a sanctuary,all but grazing therein.Verily,every king has a sanctum and the sanctum of Allah is his prohibitions.Verily,in the body there is a piece of flesh which if upright then the entire body is upright,and if corrupt then the entire body is corrupt.No doubt it is the heart.\nBukhari: 52"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

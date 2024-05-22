@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_jakat"
+    tools:context=".DailyDua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nEveryday Duas - 1:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nاللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْماً نَافِعاً، وَرِزْقاً طَيِّباً، وَعَمَلاً مُتَقَبَّلاً\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O Allah,I ask You for knowledge that is of benefit ,a good provision ,and deeds that will be accepted.\nIbn Majah: 925"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nEveryday Duas - 2:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nاللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O Allah ,I ask You for Paradise and seek Your protection from the Fire.\nAbu Dawud: 792"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nEveryday Duas - 3:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nسُبْحَانَ اللهِ ، والْحَمْدُ للهِ ، وَاللهُ أَكْبَرُِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glory is to Allah,praise is to Allah,Allah is the Most Great!\nMuslim 4:2091"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nEveryday Duas - 4:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nلاَ إِلَهَ إِلَّا أنْـت سُـبْحانَكَ إِنِّي كُنْـتُ مِنَ الظّـالِميـنُِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There is none worthy of worship but You,glory is to You.Surely,I was among the wrongdoers.\nSurah Al-Anbiya - 21:87"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nRemembrance After Prayer 1:"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nأَسْتَغْفِرُ اللَّهَ . (ثَلاثاً) اللَّهُمَّ أَنْتَ السَّلاَمُ، وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالإِكْرَامِ .ُِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I ask Allah for forgiveness.(three times) O Allah,You are As-Salam and from You is all peace,blessed are You,O Possessor of majesty and honour.’ AS-Salam: The One Who is free from all defects and deficiencies.\nMuslim 1:414"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nRemembrance After Prayer 2:"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nلَا إلَهَ إِلاَّ اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ، وَلَا مُعْطِيَ لِمَا مَنَعْتَ، وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ.ِ\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None has the right to be worshipped except Allah,alone,without partner,to Him belongs all sovereignty and praise and He is over all things omnipotent.O Allah,none can prevent what You have willed to bestow and none can bestow what You have willed to prevent,and no wealth or majesty can benefit anyone,as from You is all wealth and majesty.\nAl-Bukhari 1:255, Muslim 414"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nRemembrance After Prayer 3:"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nسُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَاللَّهُ أَكْبَرُ. (ثلاثاً وثلاثين) لَا إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ .\n"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How perfect Allah is,all praise is for Allah,and Allah is the greatest.’(thirty-three times) None has the right to be worshipped except Allah,alone,without partner,to Him belongs all sovereignty and praise and He is over all things omnipotent.\nMuslim 1:415"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
